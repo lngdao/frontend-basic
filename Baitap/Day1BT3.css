@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+
+.content1 {
+  flex: 1;
+}
+
+.declarative {
+    font-size: 25px;
+    opacity: 0.5;
+}
+
+.content2 {
+  flex: 1;
+}
+
+.component {
+    font-size: 25px;
+    opacity: 0.5;
+}
+
+.content3 {
+  flex: 1;
+}
+
+.learn {
+    font-size: 25px;
+    opacity: 0.5;
+}

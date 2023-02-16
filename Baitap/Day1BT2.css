@@ -1,0 +1,135 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.guides {
+  margin-left: 20%;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.body1 {
+  /* background-color: yellow; */
+  margin-left: 20%;
+  width: 60%;
+}
+
+.consistency {
+  display: inline-block;
+}
+
+.new1 {
+  display: inline-block;
+  background-color: green;
+  color: aquamarine;
+}
+
+.text1 {
+  display: inline-block;
+  float: right;
+}
+
+.body2 {
+  width: 60%;
+  margin-left: 20%;
+}
+
+.session {
+  display: inline-block;
+}
+
+.new11 {
+  display: inline-block;
+  background-color: green;
+  color: aquamarine;
+}
+
+.text2 {
+  display: inline-block;
+  float: right;
+}
+
+.body3 {
+  width: 60%;
+  margin-left: 20%;
+}
+
+.http {
+  display: inline-block;
+}
+
+.new10 {
+  display: inline-block;
+  background-color: green;
+  color: aquamarine;
+}
+
+.text3 {
+  display: inline-block;
+  float: right;
+}
+
+.body4 {
+  width: 60%;
+  margin-left: 20%;
+}
+
+.basic {
+  display: inline-block;
+}
+
+.text4 {
+  display: inline-block;
+  float: right;
+}
+
+.body5 {
+  width: 60%;
+  margin-left: 20%;
+}
+
+.async {
+  display: inline-block;
+}
+
+.visual1 {
+  display: inline-block;
+  float: right;
+}
+
+.body6 {
+  width: 60%;
+  margin-left: 20%;
+}
+
+.what {
+  display: inline-block;
+}
+
+.visual2 {
+  display: inline-block;
+  float: right;
+}
+
+.body7 {
+  width: 60%;
+  margin-left: 20%;
+}
+
+.slis {
+  display: inline-block;
+}
+
+.visual3 {
+  display: inline-block;
+  float: right;
+}
+
+.view {
+  margin-left: 20%;
+  margin-top: 20px;
+  background-color: gray;
+  display: inline-block;
+  border-radius: 20px;
+}
