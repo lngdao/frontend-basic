@@ -20,7 +20,8 @@
 
 .body {
   display: flex;
-  height: 625px;
+  height: 100%;
+  
 }
 
 .body > div {

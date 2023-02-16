@@ -1,5 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-flow: column;
+}
+
+.box {
+  width: 830px;
+  align-self: center;
+}
+
+.title {
+  font-size: 18px;
+  display: block;
+  text-align: center;
+  overflow: visible;
+  margin-top: 20px;
+}
+
+.title > span {
+  font-weight: 600;
+}
+
+.horizontal {
+  display: flex;
+  align-items: center;
+  margin: 40px 0 25px 0;
+}
+
+hr {
+  flex: 1;
+  background: #555;
 }
 
 .head1 {
@@ -36,10 +71,12 @@ body {
 .body1 {
   /* background-color: blueviolet; */
   text-align: center;
-  width: 20%;
-  border: 2px solid black;
+  /* width: 20%; */
+  padding: 5px 10px;
+  border: 1px solid #555;
   border-radius: 7px;
-  margin-left: 40%;
+
+  /* margin-left: 40%; */
 }
 
 .content1 {
@@ -146,9 +183,10 @@ body {
   width: 10px;
   background-color: blueviolet;
   border-radius: 50%;
+  display: inline-block;
   /* display: inline-block; */
   /* text-align: right; */
-  float: right;
+  /* float: right; */
 }
 
 .ReactNative {
@@ -172,4 +210,36 @@ body {
   /* text-align: right; */
   /* display: inline-block; */
   float: right;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 5px;
+  flex: 1;
+}
+
+.row > div:nth-child(2) {
+  margin: 0 5px;
+}
+
+.row > div {
+  display: flex;
+  height: 50px;
+  flex: 1;
+  border: 1px solid #555;
+  border-radius: 7px;
+  align-items: center;
+  padding-left: 10px;
+  position: relative;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  font-size: 13px;
+}
+
+.bottom-right.invalid {
+  color: #a1a1a1;
 }
