@@ -5,7 +5,7 @@ extensions: auto close/complete/rename tag, prettier, live preview, live share,
 HTML
 
 1. Tag
-<tagname> conten </tagname>
+<tagname> content </tagname>
 <tagname>
 
 attribute

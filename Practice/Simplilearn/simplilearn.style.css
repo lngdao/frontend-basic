@@ -1,0 +1,151 @@
+:root {
+  --header-component-height: 62px;
+  --primary-color: #118bef;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+header {
+}
+
+.header-component {
+  height: var(--header-component-height);
+  display: flex;
+  justify-content: center;
+}
+
+.header-component.header-bottom {
+  background-color: #edf2f5;
+}
+
+.header-top__content {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-top__left {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.feature-center {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.course-btn {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 25px 0 30px;
+  overflow: visible;
+  position: relative;
+}
+
+.course-btn:hover .course-hover__menu {
+  display: block;
+}
+
+.course-btn > div {
+  background: var(--primary-color);
+  width: 146px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.course-btn > div > span {
+  margin-left: 10px;
+  color: #fff;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--primary-color);
+  width: 445px;
+  height: 38px;
+  padding: 0 5px 0 15px;
+  border-radius: 3px;
+}
+
+.search-box__icon {
+  color: var(--primary-color);
+  font-size: 18px;
+}
+
+.search-box__input {
+  outline: none;
+  border: none;
+  display: flex;
+  flex: 1;
+  margin-left: 20px;
+  font-size: 14px;
+  color: var(--primary-color);
+}
+
+.search-box__input::placeholder {
+  color: var(--primary-color)
+}
+
+
+.login-btn {
+  width: 100px;
+  height: 38px;
+  border: 1px solid #808890;
+  border-radius: 5px;
+  line-height: 38px;
+  text-align: center;
+  user-select: none;
+  color: #808890;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.course-hover__menu {
+  width: 300px;
+  height: 200px;
+  background-color: #F1F6FA;
+  position: absolute;
+  top: 100%;
+  display: none;
+  padding: 15px
+}
+
+.course-hover__menu > span {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.course-hover__menu > ul {
+  margin-top: 10px;
+}
+
+.course-hover__menu > ul > li {
+  padding: 5px 0;
+  font-size: 13px;
+  color: #808890
+}
