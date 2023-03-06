@@ -4,17 +4,21 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   width: 100vw;
+  margin-top: 5px;
   /* height: 100vh; */
 }
 
-ol, ul, li {
+ol,
+ul,
+li {
   list-style: none;
 }
 
 body {
-  background-color: black;
+  /* background-color: black; */
   display: flex;
   justify-content: center;
 }
@@ -23,7 +27,7 @@ body {
   display: flex;
   width: 90%;
   align-items: center;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 
 .logo {
@@ -51,7 +55,7 @@ body {
 }
 
 .navbar > li::after {
-  content: '⌄';
+  content: "⌄";
   margin-left: 4px;
   margin-bottom: 10px;
   font-size: 14px;
@@ -86,9 +90,10 @@ body {
 }
 
 .nav-right {
+  /* background-color: red; */
   display: flex;
   justify-content: flex-end;
-  flex: 1
+  flex: 1;
 }
 
 /* responsive for ipad mini */

@@ -1,0 +1,204 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  /* background-color: violet; */
+}
+
+#heading {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  margin-top: 10px;
+  align-self: center;
+  height: 50px;
+  /* background-color: red; */
+}
+
+.nav_left {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.nav_left > img {
+  width: 50px;
+  height: 50px;
+  align-items: center;
+}
+
+.nav_left .content {
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav_center {
+  display: flex;
+  background: #d6d3d2;
+  color: #757170;
+  width: 50%;
+  margin-left: 70px;
+  align-items: center;
+  height: 60%;
+}
+
+.nav_center:hover {
+  border: 3px solid #239dcb; /* tai sao hover ca phan text */
+}
+
+.nav_center .content {
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.nav_right {
+  width: 25%;
+  display: flex;
+  justify-content: flex-end;
+  /* background-color: green; */
+}
+
+.nav_right > img {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.horizontal > hr {
+  margin-top: 15px;
+}
+
+#center {
+  height: 500px;
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  align-self: center;
+  /* background-color: yellow; */
+}
+
+.center_1 {
+  display: flex;
+  flex-flow: column;
+  width: 280px;
+  /* background-color: red; */
+}
+
+.center_2 {
+  display: flex;
+  flex-flow: column;
+  width: 620px;
+  /* background-color: gray; */
+}
+
+.center_3 {
+  display: flex;
+  flex: 1;
+  flex-flow: column;
+  /* background-color: aqua; */
+}
+
+.notice {
+  background-color: #bda36b;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  cursor: pointer;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  cursor: pointer;
+  width: 30%;
+  /* background-color: #bda36b; */
+}
+
+.list > img {
+  display: inline-block;
+  height: 25px;
+}
+
+.text {
+  margin-left: 20px;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar {
+  width: 50%;
+  margin-top: 10px;
+  /* background-color: red; */
+}
+
+.box {
+  display: flex;
+  cursor: pointer;
+  /* background-color: gray; */
+}
+
+.box_all {
+  display: flex;
+  flex: 1;
+  border-radius: 10px;
+  background-color: #B0B9B9;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  height: 30px;
+  /* chinh width kieu gi */
+}
+
+.box_nth {
+  display: flex;
+  flex: 1;
+  border-radius: 10px;
+  background-color: #DAE8E7;
+  align-items: center;
+  justify-content: center;  
+  margin-right: 10px;
+  height: 30px;
+}
+
+.box_nth:hover {
+  background-color: #B0B9B9;
+}
+
+.bar {
+  margin-top: 10px;
+}
+
+.center_3 > img {
+  margin-left: 20px;
+  height: 266px;
+  width: 266px;
+  cursor: pointer;
+}
+
+.img {
+  margin-top: 30px;
+}
+
+.status {
+  background-color: red;
+  display: flex;
+  margin-top: 20px;
+  height: 200px;
+}
+
+.statusLogo > img {
+  border-radius: 100%; /* khong chinh duoc radius */
+  height: 45px;
+}
