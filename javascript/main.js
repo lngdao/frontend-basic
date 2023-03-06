@@ -65,4 +65,64 @@ dientich(20, 40);
 
 console.log(path.dirname(__filename));
 
+<<<<<<< HEAD
 
+=======
+// lam viec voi mang
+const aArray = [1, 'long', true];
+const aArray2 = [1, 'trong', true];
+
+const aObject = {
+  a: '1',
+  b: '2',
+};
+
+for (const item of aArray) {
+  console.log(item);
+}
+
+aArray.forEach(function (item, index, array) {
+  console.log(item);
+});
+
+Array.prototype.forEach2 = function (callback) {
+  // this o day chinh la aArray
+  for (const index in this) {
+    if (this.hasOwnProperty(index)) {
+      callback(this[index], index, this);
+    }
+  }
+};
+
+// o truong hop nay callback:
+aArray.forEach2(function (item) {
+  console.log(item);
+});
+
+aArray2.forEach2(function (item) {
+  console.log(item);
+});
+
+// truong hop dung ham fillter build-in
+const newArray = aArray.filter((item, index) => typeof item == 'number');
+console.log(newArray);
+
+Array.prototype.fillter2 = function (callback) {
+  let result = [];
+
+  // logic
+  for (const index in this) {
+    if (callback(this[index], index, this)) {
+      result.push(this[index]);
+    }
+  }
+
+  return result;
+};
+
+// truong hop dung ham fillter custom
+const newArray2 = aArray.fillter2((item) => typeof item == 'number');
+console.log(newArray2);
+
+// form validation
+>>>>>>> ea9c9dcdced8f498b086fa1a2e220fc0fb592cc6
