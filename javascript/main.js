@@ -65,9 +65,6 @@ dientich(20, 40);
 
 console.log(path.dirname(__filename));
 
-<<<<<<< HEAD
-
-=======
 // lam viec voi mang
 const aArray = [1, 'long', true];
 const aArray2 = [1, 'trong', true];
@@ -125,4 +122,3 @@ const newArray2 = aArray.fillter2((item) => typeof item == 'number');
 console.log(newArray2);
 
 // form validation
->>>>>>> ea9c9dcdced8f498b086fa1a2e220fc0fb592cc6
